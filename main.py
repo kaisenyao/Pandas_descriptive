@@ -3,14 +3,10 @@ import matplotlib.pyplot as plt
 
 
 def read_dataset(file_path):
-    try:
-        df = pd.read_csv(file_path)
-        print("Dataset successfully loaded!")
-        print("Columns in dataset:", df.columns)
-        return df
-    except Exception as e:
-        print(f"Error loading dataset: {e}")
-        return None
+    df = pd.read_csv(file_path)
+    print("Dataset successfully loaded!")
+    print("Columns in dataset:", df.columns)
+    return df
 
 
 def generate_summary(df):
@@ -44,7 +40,7 @@ def create_visualization(df, column):
 
 
 def save_report(stats, output_file="summary_report.md"):
-    with open(output_file, "w") as f:
+    with open(output_file, "w", "utf-8") as f:
         f.write("# Summary Report\n\n")
         for key, value in stats.items():
             f.write(f"## {key}\n\n")
