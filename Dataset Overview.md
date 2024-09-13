@@ -1,5 +1,3 @@
-# IDS706 Pandas Assignment by Kaisen Yao
-
 Dataset Overview
 
 This dataset provides details regarding employee salaries within a company. Each row corresponds to an individual employee, with columns capturing various attributes, including age, gender, education, job title, experience, and salary.
