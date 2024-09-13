@@ -11,7 +11,7 @@ test:
 	python -m pytest --cov=main test_main.py
 
 generate:
-	python main.py
+	python test_main.py
 	git config --local user.email "action@github.com"
 	git config --local user.name "GitHub Action"
 	git add .
