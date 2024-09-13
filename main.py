@@ -46,3 +46,7 @@ def save_report(stats, output_file="summary_report.md"):
             f.write(f"## {key}\n\n")
             f.write(f"{value}\n\n")
     print(f"Summary report saved to {output_file}")
+
+
+if __name__ == "__main__":
+    save_report()
