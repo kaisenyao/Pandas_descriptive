@@ -40,7 +40,7 @@ def create_visualization(df, column):
 
 
 def save_report(stats, output_file="summary_report.md"):
-    with open(output_file, "w", "utf-8") as f:
+    with open(output_file, "w", encoding="utf-8") as f:
         f.write("# Summary Report\n\n")
         for key, value in stats.items():
             f.write(f"## {key}\n\n")
