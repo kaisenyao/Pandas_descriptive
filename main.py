@@ -50,12 +50,3 @@ def save_report(stats, output_file="summary_report.md"):
             f.write(f"## {key}\n\n")
             f.write(f"{value}\n\n")
     print(f"Summary report saved to {output_file}")
-
-
-if __name__ == "__main__":
-    file_path = "salary.csv"
-    df = read_dataset(file_path)
-    if df is not None:
-        stats = generate_summary(df)
-        create_visualization(df, column="Salary")
-        save_report(stats)
