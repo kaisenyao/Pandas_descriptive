@@ -32,7 +32,7 @@ This dataset provides details regarding employee salaries within a company. Each
 
 **Columns**:
 1. Age: The age of the employee, given as a numerical value in years.
-2. ender: The employee’s gender, categorized as male or female.
+2. Gender: The employee’s gender, categorized as male or female.
 3. Education Level: Indicates the employee’s highest educational qualification, categorized as high school, bachelor’s degree, master’s degree, or PhD.
 4. Job Title: The position held by the employee within the company, with possible titles such as manager, analyst, engineer, or administrator.
 5. Years of Experience: The number of years the employee has been working, represented as a numeric value.
